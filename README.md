@@ -42,7 +42,7 @@ Core/
       └── main.c             - Application loop & initialization routines
 ```
 
-
+##
 ⚙️ Hardware Requirements
 * Microcontroller: STM32F303 (or any STM32 device with SPI peripherals)
 
@@ -52,6 +52,7 @@ Core/
 
 * Interface: SPI + dedicated GPIO pins
 
+##
 MFRC522 ➔ STM32 Wiring Reference
 * SDA / NSS ➔ GPIO Output (e.g., PA4) [Chip Select]
 
