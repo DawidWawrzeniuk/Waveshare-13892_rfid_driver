@@ -74,7 +74,7 @@ Core/
 
 
 
-##🧠 How It Works
+## How It Works
 
 🔍 Card Detection Pipeline
 
