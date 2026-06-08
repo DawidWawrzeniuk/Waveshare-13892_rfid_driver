@@ -44,6 +44,7 @@ Core/
 
 
 ## ⚙️ Hardware Requirements
+
 * Microcontroller: STM32F303 (or any STM32 device with SPI peripherals)
 
 * RFID Module: Waveshare 13892 RFID Kit (MFRC522)
