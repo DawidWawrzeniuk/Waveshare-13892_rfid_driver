@@ -73,7 +73,7 @@ Core/
 
 
 
-🧠 How It Works
+##🧠 How It Works
 🔍 Card Detection Pipeline
 The core application flow runs through Read_data_from_rfid(), performing the following operations sequentially:
 
