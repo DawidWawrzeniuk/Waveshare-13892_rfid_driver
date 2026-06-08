@@ -23,6 +23,8 @@ This repository contains a complete, lightweight driver written for STM32 microc
 
 ## 🧩 Project Structure
 
+
+
 ```text
 Core/
  ├── Inc/
@@ -38,7 +40,7 @@ Core/
       ├── RC522.c
       ├── table_of_cards.c   - Local database instances & hardcoded lookups
       └── main.c             - Application loop & initialization routines
-
+```
 
 
 ⚙️ Hardware Requirements
@@ -87,8 +89,12 @@ Print Text: Renders the assigned cardholder name or status onto the display.
 📚 Card Database Definition
 The localized card matrix is mapped directly within table_of_cards.c:
 
-C
+
+```text
 Card cards[] = {
     {{119, 141, 249, 216, 219}, "Karta pier"},
     {{172, 198, 79, 35, 6},     "Pestka pier"}
 };
+
+```
+
