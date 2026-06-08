@@ -74,22 +74,23 @@ Core/
 
 
 ##🧠 How It Works
+
 🔍 Card Detection Pipeline
+
 The core application flow runs through Read_data_from_rfid(), performing the following operations sequentially:
 
-MFRC522_Request: Checks if any RFID card/tag is present in the induction field.
+* MFRC522_Request: Checks if any RFID card/tag is present in the induction field.
 
-MFRC522_Anticoll: Reads the unique identifier (UID) of the card.
+* MFRC522_Anticoll: Reads the unique identifier (UID) of the card.
 
-find_card: Queries the internal database array using the fetched UID.
+* find_card: Queries the internal database array using the fetched UID.
 
-Clear LCD Lines: Prepares the ST7735 screen layout by wiping specific text areas.
+* Clear LCD Lines: Prepares the ST7735 screen layout by wiping specific text areas.
 
-Print Text: Renders the assigned cardholder name or status onto the display.
+* Print Text: Renders the assigned cardholder name or status onto the display.
 
-📚 Card Database Definition
+## 📚 Card Database Definition
 The localized card matrix is mapped directly within table_of_cards.c:
-
 
 ```text
 Card cards[] = {
