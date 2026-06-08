@@ -1,0 +1,2 @@
+../Core/Src/lcd_run.c:32:7:find_card	3
+../Core/Src/lcd_run.c:49:6:Read_data_from_rfid	6

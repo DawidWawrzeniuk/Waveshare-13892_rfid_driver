@@ -1,0 +1,5 @@
+../Core/Src/lcd_text.c:537:6:lcd_draw_char	40	static
+../Core/Src/lcd_text.c:562:6:lcd_print	32	static
+../Core/Src/lcd_text.c:574:6:lcd_print_line	40	static
+../Core/Src/lcd_text.c:584:6:lcd_clear_line	24	static
+../Core/Src/lcd_text.c:596:6:lcd_clear	8	static

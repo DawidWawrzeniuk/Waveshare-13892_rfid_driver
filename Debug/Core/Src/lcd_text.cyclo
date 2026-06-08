@@ -1,0 +1,5 @@
+../Core/Src/lcd_text.c:537:6:lcd_draw_char	8
+../Core/Src/lcd_text.c:562:6:lcd_print	2
+../Core/Src/lcd_text.c:574:6:lcd_print_line	1
+../Core/Src/lcd_text.c:584:6:lcd_clear_line	2
+../Core/Src/lcd_text.c:596:6:lcd_clear	1
