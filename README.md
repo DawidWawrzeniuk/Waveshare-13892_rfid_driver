@@ -101,3 +101,35 @@ Card cards[] = {
 
 ```
 
+
+## Lookup:
+
+```text
+find_card(UID);
+```
+
+
+## 🖥️ LCD Output Example
+Code
+MEMORY OF
+CARDS:
+```text
+Karta pier
+Pestka pier
+```
+
+## 🛠️ Extending the Project
+Add more cards → edit table_of_cards.c
+
+Add actions per card → modify Read_data_from_rfid()
+
+Add menu navigation → use GPIO buttons
+
+Add UID display → extend lcd_print_line()
+
+## 📄 License
+MIT License — free to use, modify, and distribute.
+
+
+
+
