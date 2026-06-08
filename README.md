@@ -42,8 +42,8 @@ Core/
       └── main.c             - Application loop & initialization routines
 ```
 
-##
-⚙️ Hardware Requirements
+
+## ⚙️ Hardware Requirements
 * Microcontroller: STM32F303 (or any STM32 device with SPI peripherals)
 
 * RFID Module: Waveshare 13892 RFID Kit (MFRC522)
@@ -52,8 +52,8 @@ Core/
 
 * Interface: SPI + dedicated GPIO pins
 
-##
-MFRC522 ➔ STM32 Wiring Reference
+
+## MFRC522 ➔ STM32 Wiring Reference
 * SDA / NSS ➔ GPIO Output (e.g., PA4) [Chip Select]
 
 * SCK ➔ SPI SCK (e.g., PA5) [Serial Clock]
